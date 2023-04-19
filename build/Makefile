@@ -231,6 +231,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/main.c.s
 .PHONY : main.c.s
 
+nrf_receiver.obj: nrf_receiver.c.obj
+.PHONY : nrf_receiver.obj
+
+# target to build an object file
+nrf_receiver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/nrf_receiver.c.obj
+.PHONY : nrf_receiver.c.obj
+
+nrf_receiver.i: nrf_receiver.c.i
+.PHONY : nrf_receiver.i
+
+# target to preprocess a source file
+nrf_receiver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/nrf_receiver.c.i
+.PHONY : nrf_receiver.c.i
+
+nrf_receiver.s: nrf_receiver.c.s
+.PHONY : nrf_receiver.s
+
+# target to generate assembly for a file
+nrf_receiver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/nrf_receiver.c.s
+.PHONY : nrf_receiver.c.s
+
 usb_descriptors.obj: usb_descriptors.c.obj
 .PHONY : usb_descriptors.obj
 
@@ -1063,6 +1087,30 @@ var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hard
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+
+# target to build an object file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
 var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
@@ -1657,6 +1705,9 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... nrf_receiver.obj"
+	@echo "... nrf_receiver.i"
+	@echo "... nrf_receiver.s"
 	@echo "... usb_descriptors.obj"
 	@echo "... usb_descriptors.i"
 	@echo "... usb_descriptors.s"
@@ -1761,6 +1812,9 @@ help:
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"

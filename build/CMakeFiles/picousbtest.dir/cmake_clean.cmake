@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/picousbtest.dir/main.c.obj"
   "CMakeFiles/picousbtest.dir/main.c.obj.d"
+  "CMakeFiles/picousbtest.dir/nrf_receiver.c.obj"
+  "CMakeFiles/picousbtest.dir/nrf_receiver.c.obj.d"
   "CMakeFiles/picousbtest.dir/usb_descriptors.c.obj"
   "CMakeFiles/picousbtest.dir/usb_descriptors.c.obj.d"
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
@@ -71,6 +73,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+  "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"

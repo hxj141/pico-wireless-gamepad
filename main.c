@@ -26,9 +26,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 
 #include "bsp/board.h"
 #include "tusb.h"
+#include "nrf_receiver.h"
+
 
 #include "usb_descriptors.h"
 
@@ -51,12 +54,20 @@ static uint32_t blink_interval_ms = BLINK_NOT_MOUNTED;
 
 void led_blinking_task(void);
 void hid_task(void);
+int button_coord(int button_raw);
+int dpad_coord(uint16_t val);
+int *button_parse(uint16_t val);
+int js_coord(uint8_t val);
+
 
 /*------------- MAIN -------------*/
 int main(void)
 {
+  //Initialize TUSB, NRF, and board
   board_init();
   tusb_init();
+  nrf_rx_init();
+  
 
   while (1)
   {
@@ -104,7 +115,7 @@ void tud_resume_cb(void)
 // USB HID
 //--------------------------------------------------------------------+
 
-static void send_hid_report(uint8_t report_id, uint32_t btn)
+static void send_hid_report(uint8_t report_id, uint32_t btn, uint8_t *buf)
 {
   // skip if hid is not ready yet
   if ( !tud_hid_ready() ) return;
@@ -166,6 +177,7 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
     {
       // use to avoid send multiple consecutive zero report for keyboard
       static bool has_gamepad_key = false;
+      
 
       hid_gamepad_report_t report =
       {
@@ -173,15 +185,44 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
         .hat = 0, .buttons = 0
       };
 
+     //Process the Rx
+      uint16_t rx_buttons = ((uint16_t)buf[0] << 8) | buf[1]; //Send buttons as 16-bit
+      struct RxReport rx = {
+      	.buttons = button_parse(rx_buttons),
+      	.dpad = dpad_coord(rx_buttons),
+      	.lstick_x = js_coord(buf[2]),
+      	.lstick_y = js_coord(buf[3]),
+      	.rstick_x = js_coord(buf[4]),
+      	.rstick_y = js_coord(buf[5])
+      };
+
       if ( btn )
       {
-        report.hat = GAMEPAD_HAT_UP;
-        report.buttons = GAMEPAD_BUTTON_A;
-        tud_hid_report(REPORT_ID_GAMEPAD, &report, sizeof(report));
-
-        has_gamepad_key = true;
-      }else
+      	if (rx.buttons[0] == -1) {
+      		report.x = rx.lstick_x;
+	      	report.y = rx.lstick_y;
+	      	report.rx = rx.rstick_x;
+	      	report.ry = rx.rstick_y;
+	      	report.hat = rx.dpad;
+	      	has_gamepad_key = true;
+      	}
+      	else {
+      		int btn_size = sizeof(rx.buttons);
+	      	for (int i = 0; i < btn_size; ++i) {
+		      	report.x = rx.lstick_x;
+		      	report.y = rx.lstick_y;
+		      	report.rx = rx.rstick_x;
+		      	report.ry = rx.rstick_y;
+		      	report.buttons = button_coord(rx.buttons[i]);
+		      	report.hat = rx.dpad;
+		        has_gamepad_key = true;
+	        }
+        }
+      }
+      else
       {
+      	//HAT IS DPAD, START PLANNING
+      	
         report.hat = GAMEPAD_HAT_CENTERED;
         report.buttons = 0;
         if (has_gamepad_key) tud_hid_report(REPORT_ID_GAMEPAD, &report, sizeof(report));
@@ -205,8 +246,10 @@ void hid_task(void)
   if ( board_millis() - start_ms < interval_ms) return; // not enough time
   start_ms += interval_ms;
 
-  uint32_t const btn = board_button_read();
-
+  uint8_t *buf;
+  int btn = read_rx_report(&buf);
+  
+  
   // Remote wakeup
   if ( tud_suspended() && btn )
   {
@@ -216,25 +259,25 @@ void hid_task(void)
   }else
   {
     // Send the 1st of report chain, the rest will be sent by tud_hid_report_complete_cb()
-    send_hid_report(REPORT_ID_KEYBOARD, btn);
+    send_hid_report(REPORT_ID_GAMEPAD, btn, buf);
   }
 }
 
 // Invoked when sent REPORT successfully to host
 // Application can use this to send the next report
 // Note: For composite reports, report[0] is report ID
-void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint16_t len)
-{
-  (void) instance;
-  (void) len;
-
-  uint8_t next_report_id = report[0] + 1;
-
-  if (next_report_id < REPORT_ID_COUNT)
-  {
-    send_hid_report(next_report_id, board_button_read());
-  }
-}
+// void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint16_t len)
+// {
+  // (void) instance;
+  // (void) len;
+// 
+  // uint8_t next_report_id = report[0] + 1;
+// 
+  // if (next_report_id < REPORT_ID_COUNT)
+  // {
+    // send_hid_report(next_report_id, board_button_read());
+  // }
+// }
 
 // Invoked when received GET_REPORT control request
 // Application must fill buffer report's content and return its length.
@@ -299,4 +342,122 @@ void led_blinking_task(void)
 
   board_led_write(led_state);
   led_state = 1 - led_state; // toggle
+}
+
+//Take JS coord (which is normally 0 to 256 and scale it to -128 to 128)
+int js_coord(uint8_t val) {
+	// Convert to int, 
+	int parse_val = (int) val;
+	parse_val = parse_val - 128;
+	return parse_val;	
+}
+
+//Take button inputs and send as array
+int *button_parse(uint16_t val) {
+	uint16_t checker = (uint16_t) 1; // 1000 0000 0000 0000
+	int array_size;
+	int *dio_parse = (int *) malloc(sizeof(int)*11);
+	
+	// Do an AND shift over to see which buttons are there
+	//Our packet will be backwards
+	for (int i = 0; i < 11; ++i) {
+		if (((int)(checker & val)) == pow(2,i)) {
+			dio_parse[array_size] = i;
+			array_size++; 
+		}
+		checker = (checker<<1);
+	}
+	if (array_size == 0) {
+		dio_parse[0] = -1;
+	}
+	return dio_parse;
+}
+int button_coord(int button_raw) {
+	switch(button_raw) {
+		case 0:
+			return GAMEPAD_BUTTON_B;
+		case 1:
+			return GAMEPAD_BUTTON_A;
+		case 2:
+			return GAMEPAD_BUTTON_Y;
+		case 3:
+			return GAMEPAD_BUTTON_X;
+		case 4:
+			return GAMEPAD_BUTTON_A;
+		case 5:
+			return GAMEPAD_BUTTON_TL;
+		case 6:
+			return GAMEPAD_BUTTON_TR;
+		case 7:
+			return GAMEPAD_BUTTON_SELECT;
+		case 8:
+			return GAMEPAD_BUTTON_START;
+		case 9:
+			return GAMEPAD_BUTTON_THUMBL;
+		case 10:
+			return GAMEPAD_BUTTON_THUMBR;
+	}
+}
+
+int dpad_coord(uint16_t val) {
+	uint16_t checker = (uint16_t) 2048; // 0000 1000 0000 0000
+	int net_y = 0;
+	int net_x = 0;
+	
+	// Case 11 - UP
+	// Case 12 - RIGHT
+	// Case 13 - DOWN
+	// Case 14 - LEFT
+
+	// Do an AND shift over to see which buttons are there
+	//Our packet will be backwards
+
+	//Figure out how each coordinate cancels
+	for (int i = 11; i < 16; ++i) {
+		if (((int)(checker & val)) == pow(2,i)) {
+			switch(i) {
+				case 11:
+					net_y++;
+				case 12:
+					net_x++;
+				case 13:
+					net_y--;
+				case 14:
+					net_x--;
+			}			
+		}
+		checker = (checker<<1);
+	} 
+	int t_net = net_y + net_x;
+
+	switch (t_net) {
+		case -2:
+			return GAMEPAD_HAT_DOWN_LEFT;
+		case -1:
+			if (net_y == 0) {
+				return GAMEPAD_HAT_LEFT;
+			}
+			if (net_y == -1) {
+				return GAMEPAD_HAT_DOWN;
+			}
+		case 0:
+			if (net_y == -1) {
+				return GAMEPAD_HAT_DOWN_RIGHT;
+			}
+			if (net_y == 0) {
+				return GAMEPAD_HAT_CENTERED;
+			}
+			if (net_y == 1) {
+				return GAMEPAD_HAT_UP_LEFT;
+			}
+		case 1:
+			if (net_y == 0) {
+				return GAMEPAD_HAT_RIGHT;
+			}
+			if (net_y == 1) {
+				return GAMEPAD_HAT_UP;
+			}
+		case 2:
+			return GAMEPAD_HAT_UP_RIGHT;
+	}
 }

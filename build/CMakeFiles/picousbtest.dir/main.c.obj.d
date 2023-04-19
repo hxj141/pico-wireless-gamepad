@@ -21,6 +21,7 @@ CMakeFiles/picousbtest.dir/main.c.obj: \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /usr/include/newlib/math.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/board.h \
  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdbool.h \
@@ -71,4 +72,5 @@ CMakeFiles/picousbtest.dir/main.c.obj: \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/nrf_receiver.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/usb_descriptors.h
