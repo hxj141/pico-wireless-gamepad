@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

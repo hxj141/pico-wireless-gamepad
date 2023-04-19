@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+		},
+		{
+			"file" : "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PioasmBuild"
+		],
+		"name" : "PioasmBuild"
+	}
+}
