@@ -1,5 +1,6 @@
 /* 
  * The MIT License (MIT)
+ * The MIT License (MIT)
  *
  * Copyright (c) 2019 Ha Thach (tinyusb.org)
  *
@@ -23,17 +24,18 @@
  *
  */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include <string.h>
 #include <math.h>
+#include <tusb.h>
 
 #include "bsp/board.h"
-#include "tusb.h"
+#include "pico/stdio_usb.h"
+#include "pico/stdlib.h"
+
+
 #include "nrf_receiver.h"
-
-
 #include "usb_descriptors.h"
+#include "stdlib.h"
 
 //--------------------------------------------------------------------+
 // MACRO CONSTANT TYPEDEF PROTYPES
@@ -54,16 +56,19 @@ static uint32_t blink_interval_ms = BLINK_NOT_MOUNTED;
 
 void led_blinking_task(void);
 void hid_task(void);
+
 int button_coord(int button_raw);
 int dpad_coord(uint16_t val);
 int *button_parse(uint16_t val);
 int js_coord(uint8_t val);
 
 
+
 /*------------- MAIN -------------*/
 int main(void)
 {
   //Initialize TUSB, NRF, and board
+  tty_init();
   board_init();
   tusb_init();
   nrf_rx_init();
@@ -248,6 +253,7 @@ void hid_task(void)
 
   uint8_t *buf;
   int btn = read_rx_report(&buf);
+  printf("Read successful? %d\n", btn);
   
   
   // Remote wakeup
@@ -259,25 +265,26 @@ void hid_task(void)
   }else
   {
     // Send the 1st of report chain, the rest will be sent by tud_hid_report_complete_cb()
-    send_hid_report(REPORT_ID_GAMEPAD, btn, buf);
+    send_hid_report(REPORT_ID_KEYBOARD, btn, buf);
   }
 }
 
 // Invoked when sent REPORT successfully to host
 // Application can use this to send the next report
 // Note: For composite reports, report[0] is report ID
-// void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint16_t len)
-// {
-  // (void) instance;
-  // (void) len;
-// 
-  // uint8_t next_report_id = report[0] + 1;
-// 
-  // if (next_report_id < REPORT_ID_COUNT)
-  // {
-    // send_hid_report(next_report_id, board_button_read());
-  // }
-// }
+void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint16_t len)
+{
+	(void) instance;
+	(void) len;
+
+	 uint8_t next_report_id = report[0] + 1;
+
+	if (next_report_id < REPORT_ID_COUNT)
+		{
+		  uint8_t *buf;
+		  send_hid_report(next_report_id, board_button_read(), buf);
+		}
+}
 
 // Invoked when received GET_REPORT control request
 // Application must fill buffer report's content and return its length.

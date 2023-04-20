@@ -226,6 +226,7 @@ void open_TX_pipe();
 void start_listening();
 
 void nrf_rx_init(); // Initialize the NRF receiver 
+void tty_init();
 uint8_t *read_rx_report(); //Read the Rx report controls packet via the NRF 
 
 //Report of controls transmitted wirelessly, post-processed

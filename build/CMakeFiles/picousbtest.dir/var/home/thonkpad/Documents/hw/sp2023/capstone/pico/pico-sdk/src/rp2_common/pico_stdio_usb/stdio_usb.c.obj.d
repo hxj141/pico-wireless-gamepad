@@ -1,21 +1,20 @@
-CMakeFiles/picousbtest.dir/main.c.obj: \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/main.c \
- /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
- /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
- /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
- /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h \
- /usr/include/newlib/_ansi.h \
- /usr/lib/gcc/arm-none-eabi/12.2.1/include/stddef.h \
- /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
- /usr/include/newlib/machine/_default_types.h \
- /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
- /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h /usr/include/newlib/math.h \
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdbool.h \
  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdint.h \
- /usr/include/newlib/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/12.2.1/include/stddef.h \
+ /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
+ /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/12.2.1/include/stdarg.h \
  /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
  /usr/include/newlib/machine/endian.h \
@@ -68,26 +67,5 @@ CMakeFiles/picousbtest.dir/main.c.obj: \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/board.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/ansi_escape.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/nrf_receiver.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/usb_descriptors.h \
- /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
- /usr/include/newlib/alloca.h
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h

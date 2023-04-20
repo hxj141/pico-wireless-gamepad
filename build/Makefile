@@ -1007,6 +1007,30 @@ var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hard
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
 var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
@@ -1639,29 +1663,77 @@ var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+
+# target to build an object file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+
+# target to build an object file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
@@ -1686,6 +1758,30 @@ var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico
 var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+
+# target to build an object file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picousbtest.dir/build.make CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 # Help Target
 help:
@@ -1802,6 +1898,9 @@ help:
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1881,12 +1980,21 @@ help:
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 .PHONY : help
 
 

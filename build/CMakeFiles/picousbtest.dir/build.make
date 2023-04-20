@@ -202,11 +202,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_sync/sem.c
@@ -439,11 +439,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
@@ -480,11 +480,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
@@ -507,11 +507,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
@@ -520,11 +520,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
@@ -561,11 +561,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
@@ -574,11 +574,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
@@ -587,11 +587,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
@@ -628,11 +628,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
@@ -655,11 +655,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
@@ -668,11 +668,11 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
@@ -716,24 +716,80 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/picousbtest.dir/flags.make
-CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/picousbtest.dir/flags.make
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/picousbtest.dir/flags.make
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/picousbtest.dir/flags.make
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/picousbtest.dir/flags.make
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/picousbtest.dir/flags.make
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -747,7 +803,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -761,7 +817,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -775,7 +831,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -789,7 +845,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -803,7 +859,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -817,7 +873,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -831,7 +887,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -845,7 +901,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -859,7 +915,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -873,7 +929,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -887,7 +943,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -901,7 +957,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -915,7 +971,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -929,7 +985,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -943,7 +999,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -957,7 +1013,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -971,7 +1027,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -985,7 +1041,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -999,7 +1055,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
@@ -1013,7 +1069,7 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/picousbtest.dir/flags.make
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/picousbtest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -1073,7 +1129,11 @@ picousbtest_OBJECTS = \
 "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
 "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
 "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
@@ -1146,7 +1206,11 @@ picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp202
 picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -1171,7 +1235,7 @@ picousbtest.elf: CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp202
 picousbtest.elf: CMakeFiles/picousbtest.dir/build.make
 picousbtest.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 picousbtest.elf: CMakeFiles/picousbtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable picousbtest.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable picousbtest.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/picousbtest.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/picousbtest.elf picousbtest.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/picousbtest.elf picousbtest.bin

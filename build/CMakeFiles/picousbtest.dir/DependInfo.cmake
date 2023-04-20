@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
@@ -45,13 +46,14 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_RUNTIME=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
-  "LIB_PICO_STDIO_UART=1"
+  "LIB_PICO_STDIO_USB=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
   "LIB_PICO_SYNC_CRITICAL_SECTION=1"
   "LIB_PICO_SYNC_MUTEX=1"
   "LIB_PICO_SYNC_SEM=1"
   "LIB_PICO_TIME=1"
+  "LIB_PICO_UNIQUE_ID=1"
   "LIB_PICO_UTIL=1"
   "LIB_TINYUSB_BOARD=1"
   "LIB_TINYUSB_DEVICE=1"
@@ -105,7 +107,10 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_bootrom/include"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/include"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/include"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_usb_reset_interface/include"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/boot_stage2/include"
@@ -151,6 +156,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
@@ -173,8 +179,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
-  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
+  "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

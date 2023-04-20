@@ -49,8 +49,4 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

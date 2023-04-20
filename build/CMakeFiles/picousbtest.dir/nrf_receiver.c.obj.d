@@ -16,8 +16,10 @@ CMakeFiles/picousbtest.dir/nrf_receiver.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
- /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/alloca.h /usr/include/newlib/string.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -56,7 +58,7 @@ CMakeFiles/picousbtest.dir/nrf_receiver.c.obj: \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \

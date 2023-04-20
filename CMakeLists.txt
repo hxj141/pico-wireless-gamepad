@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 include(pico_sdk_import.cmake)
-project(picousbtest)
+project(picousbtest C CXX ASM)
 pico_sdk_init()
 
 add_executable(picousbtest)
@@ -23,6 +23,9 @@ target_link_libraries(picousbtest PUBLIC pico_stdlib tinyusb_device tinyusb_boar
 #target_compile_definitions(dev_hid_composite PUBLIC PICO_RP2040_USB_DEVICE_ENUMERATION_FIX=1)
 
 pico_add_extra_outputs(picousbtest)
+
+pico_enable_stdio_usb(picousbtest 1)
+pico_enable_stdio_uart(picousbtest 0)
 
 # add url via pico_set_program_url
 #example_auto_set_url(dev_hid_composite)

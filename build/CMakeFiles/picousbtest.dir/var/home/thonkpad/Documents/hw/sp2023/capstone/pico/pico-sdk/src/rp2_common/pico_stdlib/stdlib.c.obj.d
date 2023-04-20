@@ -44,10 +44,14 @@ CMakeFiles/picousbtest.dir/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/p
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
  /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
- /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /var/home/thonkpad/Documents/hw/sp2023/capstone/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h
