@@ -1,3 +1,0 @@
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pioasm/CMakeFiles/pioasm.dir
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pioasm/CMakeFiles/edit_cache.dir
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,0 @@
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/elf2uf2/CMakeFiles/elf2uf2.dir
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/elf2uf2/CMakeFiles/edit_cache.dir
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-/var/home/thonkpad/Documents/hw/sp2023/capstone/pico/src/picousbtest/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

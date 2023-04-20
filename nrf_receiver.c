@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <tusb.h>   // TinyUSB tud_cdc_connected()
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "hardware/spi.h"
-#include "tusb.h"   // TinyUSB tud_cdc_connected()
 #include "nrf_receiver.h"
 
 static inline void cs_select(){
@@ -244,14 +244,4 @@ uint8_t *read_rx_report(int **rx_report) {
     else {
       return (uint32_t) 0;
     }
-}
-
-void tty_init() {
-	stdio_init_all();
-	//wait until the CDC ACM (serial port emulation) is connected
-	  // while (!tud_cdc_connected())
-  		// {
-    		// sleep_ms(10);
-  		// }
-    printf("The PusateriPad Debugger\n");
 }
